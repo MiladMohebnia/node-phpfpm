@@ -1,4 +1,16 @@
-# node-phpfpm
+# tsnode-phpfpm
+I have refactored `node-phpfpm` package into typescript and published on personal manners!
+
+## WARNING
+
+	I don't have time to write down documentation and this documentationbelow is from `node-phpfpm` project! so if you want to know how this works simply read `.ts` files is src! it's so simple~!
+	you can email me  on `miladmohebnia@gmail.com` I'll check and reply!
+
+
+
+`again ... this documentation below is for the node version of this package`
+
+
 node.js run php scripts via phpfpm
 
 [![NPM](https://nodei.co/npm/node-phpfpm.png?downloads=true&stars=true)](https://www.npmjs.com/package/node-phpfpm)

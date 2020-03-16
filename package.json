@@ -1,6 +1,6 @@
 {
   "name": "tsnode-phpfpm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typescript nodejs (ts-node) run php scripts via phpfpm based on node-phpfpm project from https://github.com/longbill/node-phpfpm.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
