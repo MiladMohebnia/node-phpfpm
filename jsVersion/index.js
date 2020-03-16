@@ -18,6 +18,7 @@ function phpfpm(options)
 	this.options = options;
 	var self = this;
 	options.skipCheckServer = true;
+	
 	this.client = fastcgiConnector(options);
 	this.ready = false;
 	this.client.on('ready', function()

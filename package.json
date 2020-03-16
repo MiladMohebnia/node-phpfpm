@@ -2,14 +2,20 @@
   "name": "node-phpfpm",
   "version": "1.0.1",
   "description": "nodejs run php scripts via phpfpm",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
+    "@types/node": "^13.9.1",
     "fastcgi-client": "0.0.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3",
     "urlencode-for-php": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "tsc": "tsc",
+    "tsc-run": "tsc && npm run start",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
