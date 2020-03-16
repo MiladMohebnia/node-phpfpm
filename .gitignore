@@ -1,3 +1,6 @@
+#ignore built 
+build
+
 # vs code
 .vscode
 
