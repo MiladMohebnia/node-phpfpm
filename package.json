@@ -1,8 +1,9 @@
 {
-  "name": "node-phpfpm",
-  "version": "1.0.1",
-  "description": "nodejs run php scripts via phpfpm",
-  "main": "src/index.js",
+  "name": "tsnode-phpfpm",
+  "version": "1.0.0",
+  "description": "typescript nodejs (ts-node) run php scripts via phpfpm based on node-phpfpm project from https://github.com/longbill/node-phpfpm.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "dependencies": {
     "@types/node": "^13.9.1",
     "fastcgi-client": "0.0.1",
@@ -19,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/longbill/node-phpfpm.git"
+    "url": "https://github.com/MiladMohebnia/tsnode-phpfpm.git"
   },
   "keywords": [
     "nodejs",
@@ -27,10 +28,10 @@
     "phpfpm",
     "php-fpm"
   ],
-  "author": "Chunlong",
+  "author": "Milad Mohebnia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/longbill/node-phpfpm/issues"
+    "url": "https://github.com/MiladMohebnia/tsnode-phpfpm/issues"
   },
-  "homepage": "https://github.com/longbill/node-phpfpm"
+  "homepage": "https://github.com/MiladMohebnia/tsnode-phpfpm"
 }
