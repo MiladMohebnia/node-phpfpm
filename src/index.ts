@@ -1,5 +1,6 @@
 import { configuration } from "./configuration.type";
 import { request, info } from "./request.type";
+
 export class PHPFPM {
     private configuration: configuration = {
         host: '127.0.0.1',
