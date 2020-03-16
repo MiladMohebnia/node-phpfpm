@@ -174,5 +174,5 @@ export class PHPFPM {
         while (evt = this.queue.shift()) {
             this.run(evt.info, evt.cb);
         }
-    };
+    }
 }
